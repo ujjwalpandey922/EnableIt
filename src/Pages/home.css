@@ -1,0 +1,48 @@
+.home {
+  width: 100%;
+  padding: 2rem;
+  min-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+  gap: 2rem;
+  background-color: rgb(234, 226, 217);
+}
+
+/* BUTTON - BASIC */
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 5px;
+
+  background-color: rgb(12, 9, 95);
+  color: white;
+
+  transition: 0.5s;
+}
+.btn:hover {
+  transition: 0.5s;
+  color: rgb(12, 9, 95);
+  background-color: white;
+}
+.pre {
+  pointer-events: none;
+  background-color: ghostwhite;
+  color: black;
+}
+/* USE ANY WHERE SAVE TIME */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
+.cardInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0 2rem;
+}
